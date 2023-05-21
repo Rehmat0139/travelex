@@ -18,9 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <h1 className="display-1">
-        Bootstrap
-      </h1>
+      
     </div>
   );
 }
