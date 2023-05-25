@@ -3,8 +3,7 @@
   height: 130vh;
 }
 
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -12,6 +11,10 @@ html{
 /* .logo{
   drop-sa
 } */
+.btn{
+  padding-right: 60px;
+  padding-left: 60px;
+}
 
 input:focus::placeholder {
   color: transparent;
@@ -48,14 +51,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: #2980b9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #ffffff,
-    #2980b9
-    #2b7d9b,
+    #2980b9 ,#ffffff,
+    #2b7d9b
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #2980b9
-    #ffffff,
-    #6dd5fa,
+    #2980b9, #aee9f3,
+    #2b7d9b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import './style.css'
+import "./style.css";
 
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar sticky-top navbar-expand-lg p-0 navbar-light bg-light">
+      <nav className="navbar navbar-default sticky-top navbar-expand-lg p-0 navbar-light bg-light">
         <div className="container-fluid">
           <button
             class="navbar-toggler"
@@ -20,18 +20,20 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav d-flex justify-content-around fs-5 fw-bold text me-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <a className="nav-link active p-3 align-text-center" aria-current="page" href="/">
-                  <a className="navbar-brand logo" style={{color:'#2980b9'}} href="/">
+                <a
+                  className="nav-link active p-3 align-text-center"
+                  aria-current="page"
+                  href="/"
+                >
+                  <a
+                    className="navbar-brand logo"
+                    style={{ color: "#2980b9" }}
+                    href="/"
+                  >
                     <span className="h1 fs-1 fw-bold logoText ">E</span>
                     <span className="h1 fs-1 iconStyle logoText">K</span>
                     <span className="h1 fs-1 iconStyle logoText">U</span>
-                    {/* <img className="logo" src={logo} alt="" width={100} /> */}
                   </a>
-
-                  {/* <img
-                    src="logo.jpg"
-                    alt=""
-                  /> */}
                 </a>
               </li>
               <li className="nav-item  p-4">
@@ -65,12 +67,12 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <div class="d-grid d-md-flex justify-content-lg-end">
+            <div class="d-md-flex justify-content-lg-end">
               <button
-                class="btn fw-bold fs-5 rounded btn-primary me-md-2 p-3"
+                class="btn btn-primary fw-bold fs-5 rounded me-md-2 p-3"
                 type="button"
               >
-                Book With Us
+                  ENQUIRE
               </button>
             </div>
           </div>

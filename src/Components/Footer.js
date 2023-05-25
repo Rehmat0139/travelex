@@ -4,14 +4,14 @@ const Footer = () => {
   return (
     <>
       <footer className="p-10 m-10" id="footer">
-        <div className="container">
-          <div className="row">
+        <div className="container p-10  ">
+          <div className="row d-flex p-10">
             <form
               className="text-white text-start col-md-5 m-10"
               data-aos="fade-up"
             >
               <h1 data-aos="fade-up" style={{color:'#052f4b'}}>Reach Out To Us</h1>
-              <span className="underline-danger mb-4"></span>
+              <span className="underline mb-4"></span>
               <div className="form-group">
                 <label for="name"> Name </label>
                 <input

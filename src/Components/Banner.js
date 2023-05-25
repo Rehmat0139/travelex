@@ -50,7 +50,7 @@ const Banner = () => {
             <input type="date" value="From" name="from" />
           </div>
 
-          <div class="d-grid d-md-flex justify-content-lg-center">
+          <div class="d-flex flex-wrap justify-content-sm-center">
             <button
               class="btn fw-bold fs-5 rounded btn-primary me-md-2"
               type="button"
