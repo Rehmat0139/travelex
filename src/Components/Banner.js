@@ -1,11 +1,10 @@
 import React from "react";
-import "./Banner.css";
+import "./style.css";
 
 const Banner = () => {
   return (
     <>
       <section className="Banner d-flex justify-content-around text-wrap">
-        {/* <img src='http://ekutravels.org/wp-content/uploads/2022/04/2.jpg' alt='Image' style={{height:'140vh'}}></img> */}
         <div
           className="d-flex vw-40"
           style={{ fontFamily: "sans-serif" }}

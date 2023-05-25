@@ -1,11 +1,12 @@
 import React from "react";
 import CardItems from "./CardItems";
 import { DetailFeatures } from "./Content";
+import './style.css'
 
 const Cards = () => {
   return (
-    <div className="container my-3 ">
-      <h2>Destinations</h2>
+    <div className="container-fluid cards my-3 ">
+      <h2 style={{fontWeight:'bolder', color:' #257e9e'}}>Destinations</h2>
       <div className="row">
         {DetailFeatures.map((features)=>{
           return  <div className="col-md-4">
@@ -18,17 +19,3 @@ const Cards = () => {
 };
 
 export default Cards;
-
-
-// .map((each) => {
-//   return (
-//       <div className="col-md-4">
-//         <CardItems
-//           title="my title"
-//           desc="Description"
-//           imgUrl="img"
-//         />
-//       </div>
-//     </div>
-//   );
-// })
