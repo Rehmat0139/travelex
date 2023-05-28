@@ -102,21 +102,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
-          <div className="py-2">
-            <a href="/">
-              <i className="fa-brands fa-facebook text-danger"></i>
-            </a>
-            <a href="/">
-              <i className="fab fa-google fa-2x text-danger mx-3"></i>
-            </a>
-            <a href="/">
-              <i className="fab fa-twitter fa-2x text-primary mx-3"></i>
-            </a>
-            <a href="/">
-              <i className="fab fa-youtube fa-2x text-danger mx-3"></i>
-            </a>
-          </div>
           <p className="text-white">Copyright 2023</p>
         </div>
       </footer>

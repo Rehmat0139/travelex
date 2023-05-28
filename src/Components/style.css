@@ -1,5 +1,7 @@
 .Banner {
   background-image: url(http://ekutravels.org/wp-content/uploads/2022/04/2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 130vh;
 }
 
@@ -7,6 +9,17 @@ html {
   scroll-behavior: smooth;
 }
 
+.card-container{
+  background-image: url(https://images.unsplash.com/photo-1681440080187-407a70616411?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.Carousal{
+  position: absolute;
+  top: 100;
+}
 
 /* .logo{
   drop-sa
@@ -60,3 +73,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     #2b7d9b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.brighten img {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  }
+  
+  .brighten img:hover {
+  -webkit-filter: brightness(100%);
+  }

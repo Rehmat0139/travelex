@@ -53,11 +53,6 @@ const Navbar = () => {
               </li>
               <li className="nav-item p-4">
                 <a className="nav-link" href="/">
-                  Pages
-                </a>
-              </li>
-              <li className="nav-item p-4">
-                <a className="nav-link" href="/">
                   Blogs
                 </a>
               </li>
@@ -67,12 +62,28 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
+
+            <div className="py-2 m-4">
+              <a href="/">
+                <i className="fa-brands fa-2x mx-3 fa-facebook text-primary "></i>
+              </a>
+              <a href="/">
+                <i className="fab fa-google fa-2x text-danger mx-3"></i>
+              </a>
+              <a href="/">
+                <i className="fab fa-twitter fa-2x text-primary mx-3"></i>
+              </a>
+              <a href="/">
+                <i className="fab fa-youtube fa-2x text-danger mx-3"></i>
+              </a>
+            </div>
+
             <div class="d-md-flex justify-content-lg-end">
               <button
                 class="btn btn-primary fw-bold fs-5 rounded me-md-2 p-3"
                 type="button"
               >
-                  ENQUIRE
+                ENQUIRE
               </button>
             </div>
           </div>
