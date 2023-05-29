@@ -6,12 +6,15 @@ import "./style.css";
 const Cards = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid" id="Destinations">
         <div className="container">
-          <div className="row justify-content-center" style={{backgroundColor:''}}>
-            <h2 style={{ fontWeight: "bolder", color: " #257e9e" }}>
-              Destinations
-            </h2>
+          <div className="card-items row justify-content-center" style={{backgroundImage:'URL(https://preview.colorlib.com/theme/vacation/images/bg_3.jpg.webp)'}}>       
+          <h1 class="display-4 mb-4 fw-bold text-dark">Destinations</h1>
+          <p class="lead fw-normal">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
             {DetailFeatures.map((features) => {
               return (
                 <div class="col-lg-4 col-sm-10 mx-auto mb-4" data-aos="zoom-in">

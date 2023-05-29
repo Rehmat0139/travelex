@@ -6,11 +6,8 @@ const Footer = () => {
       <footer className="p-10 m-10" id="footer">
         <div className="container p-10  ">
           <div className="row d-flex p-10">
-            <form
-              className="text-white text-start col-md-5 m-10"
-              data-aos="fade-up"
-            >
-              <h1 data-aos="fade-up" style={{color:'#052f4b'}}>Reach Out To Us</h1>
+            <form className="text-white text-start col-md-5 m-10">
+              <h1 style={{ color: "#052f4b" }}>Reach Out To Us</h1>
               <span className="underline mb-4"></span>
               <div className="form-group">
                 <label for="name"> Name </label>
@@ -61,13 +58,10 @@ const Footer = () => {
               </div>
             </form>
             <div className="col-4 text-white">
-              <h1 style={{ padding: "10", color:'#052f4b' }} data-aos="fade-up">
-                Section
-              </h1>
+              <h1 style={{ padding: "10", color: "#052f4b" }}>Section</h1>
               <span className="underline black mb-4 "></span>
               <ul
                 className="nav flex-column fs-4 fw-bold"
-                data-aos="fade-up"
                 style={{ cursor: "pointer" }}
               >
                 <li className="nav-item mb-4"> Home</li>
@@ -80,23 +74,22 @@ const Footer = () => {
             <div className="col-md-3 text-white text-start">
               <h1
                 className="text-center"
-                style={{ padding: "10", color:'#052f4b'}}
-                data-aos="fade-up"
+                style={{ padding: "10", color: "#052f4b" }}
               >
                 Address
               </h1>
-              <h4 data-aos="fade-up"> - Location</h4>
-              <p data-aos="fade-up">
+              <h4> - Location</h4>
+              <p>
                 Office No 001, First Foloor, lorem lorem lroenmg, lorem lorem,
                 Male, Maldives - 410 203
               </p>
 
-              <h4 data-aos="fade-up"> - Contact</h4>
-              <div data-aos="fade-up" className="contactWrapper d-flex">
+              <h4> - Contact</h4>
+              <div className="contactWrapper d-flex">
                 <b>Phone : </b>
                 <p> +9101111111 </p>
               </div>
-              <div data-aos="fade-up" className="contactWrapper">
+              <div className="contactWrapper">
                 <b>Mail Us : </b>
                 <p>lorem@gamil.com</p>
               </div>

@@ -16,7 +16,7 @@ const CardItems = ({ tittle, desc, imgUrl }) => {
           height="250rem"
           alt="..."
         />
-        <div className="card-body">
+        <div className="card-body ">
           <h5 className="card-title">{tittle}</h5>
           <p className="card-text">{desc}.</p>
           <a href="/details" className="btn btn-primary">
