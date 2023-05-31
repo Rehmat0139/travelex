@@ -4,7 +4,7 @@ import "./style.css";
 const Banner = () => {
   return (
     <>
-      <div className="container-fluid Banner">
+      <div className="container-fluid Banner" id="Home">
         <div className="container ">
           <div
             className="row justify-content-center align-items-center "

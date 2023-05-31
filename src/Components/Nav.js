@@ -2,6 +2,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+// import { NavLink } from "react-router-dom";
 import "./style.css";
 
 function NavScrollExample() {
@@ -32,11 +33,11 @@ function NavScrollExample() {
             style={{ maxHeight: "100px", color: "black" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Destinations</Nav.Link>
-            <Nav.Link href="#action3">Tours</Nav.Link>
-            <Nav.Link href="#action4">Blogs</Nav.Link>
-            <Nav.Link href="#action5">Contact</Nav.Link>
+            <Nav.Link href="#Home">Home</Nav.Link>
+            <Nav.Link href="#Destinations">Destinations</Nav.Link>
+            <Nav.Link href="#Tours">Tours</Nav.Link>
+            <Nav.Link href="#Blogs">Blogs</Nav.Link>
+            <Nav.Link href="#footer">Contact</Nav.Link>
           </Nav>
           <div className="py-2 m-4">
             <a href="/">

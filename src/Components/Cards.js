@@ -8,7 +8,7 @@ const Cards = () => {
     <>
       <div className="container-fluid" id="Destinations">
         <div className="container">
-          <div className="card-items row justify-content-center" style={{backgroundImage:'URL(https://preview.colorlib.com/theme/vacation/images/bg_3.jpg.webp)'}}>       
+          <div className="card-items row justify-content-center">       
           <h1 class="display-4 mb-4 fw-bold text-dark">Destinations</h1>
           <p class="lead fw-normal">
                 Lorem Ipsum is simply dummy text of the printing and typesetting

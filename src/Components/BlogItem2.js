@@ -8,7 +8,7 @@ const BlogItem2 = () => {
         <h1 className=" text-sm-center">
           It's time to start your adventure with Us !!!
         </h1>
-        <div className="d-flex flex-row mb-3 py-2 m-4">
+        <div className="d-flex justify-content-around flex-row mb-3 py-2 m-4">
           <a href="/" className="p-2">
             <i
               className="fas fa-handshake-angle fa-2x mx-3 fa-beat-fade fa-2xl text-dark"

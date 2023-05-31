@@ -8,12 +8,6 @@ html {
   height: 100vh;
 }
 
-.card-items{
-  background-image: url(https://preview.colorlib.com/theme/vacation/images/bg_3.jpg.webp);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
 .Carousal{
   position: absolute;
   top: 100;
@@ -75,8 +69,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 #footer {
-  /* background-image: url(http://ekutravels.org/wp-content/uploads/2021/02/shape-4.png); */
-
   background: #2980b9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
