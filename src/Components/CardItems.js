@@ -1,7 +1,8 @@
 import React from "react";
-import './style.css';
+import "./style.css";
+import { Link } from "react-router-dom";
 
-const CardItems = ({ tittle, desc, imgUrl }) => {
+const CardItems = ({ tittle, desc, imgUrl,route }) => {
   return (
     <>
       <div
@@ -19,13 +20,11 @@ const CardItems = ({ tittle, desc, imgUrl }) => {
         <div className="card-body ">
           <h5 className="card-title">{tittle}</h5>
           <p className="card-text">{desc}.</p>
-          <a href="/details" className="btn btn-primary">
+          <Link to={route} className="btn btn-primary">
             Get Details
-          </a>
+          </Link>
         </div>
       </div>
-
-
     </>
   );
 };

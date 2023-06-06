@@ -31,10 +31,10 @@ const Footer = () => {
               <div className="form-group">
                 <label for="number">Phone Number</label>
                 <input
-                  type="email"
+                  type="number"
                   className="form-control"
                   placeholder="Phone Number"
-                  id="email"
+                  id="number"
                 />
               </div>
 

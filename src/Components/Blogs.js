@@ -1,5 +1,4 @@
 import React from "react";
-
 import BlogItem1 from "./BlogItem1";
 import BlogItem2 from "./BlogItem2";
 

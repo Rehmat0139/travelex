@@ -22,6 +22,7 @@ const Cards = () => {
                     tittle={features.tittle}
                     desc={features.desc}
                     imgUrl={features.img}
+                    route={features.route}
                   />
                 </div>
               );
