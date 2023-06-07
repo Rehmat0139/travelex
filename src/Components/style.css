@@ -69,17 +69,17 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 #footer {
-  background: #2980b9; /* fallback for old browsers */
+  background: #2980b9; 
   background: -webkit-linear-gradient(
     to right,
     #2980b9 ,#ffffff,
     #2b7d9b
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #2980b9, #aee9f3,
     #2b7d9b
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
 }
 
 .brighten img {

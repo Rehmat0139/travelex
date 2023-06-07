@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 // import { NavLink } from "react-router-dom";
 import "./style.css";
 
-function NavScrollExample() {
+function NavScroll() {
   return (
     <Navbar className="sticky-top" bg="light" expand="lg">
       <Container fluid d-flex justify-content-around >
@@ -65,4 +65,4 @@ function NavScrollExample() {
   );
 }
 
-export default NavScrollExample;
+export default NavScroll;

@@ -34,8 +34,8 @@ const DetailFeatures = [
     desc: "Located in South Ari Atoll, less than 20 minutes from Velana International Airport by domestic flight.",
     route: '/SrilankaDetails'
   },
-  
 ];
+
 
 const CarouselFeat = [
   {
@@ -82,15 +82,4 @@ const SectionCard = [
   },
 ];
 
-
-const TourDetails =[
-  {
-    title: "ABOUT US",
-    h2: "Welcome to Omkar Consultancy",
-    p: "Over 10 years of experience we’ll ensure you always get the best guidance. We serve a clients at every level of their organization we can be most useful, whether as a trusted advisor to top trusted our management coach for fronts line employees.",
-    textAlign: "text-center",
-    underlineColor: "underline",
-  },
-]
-
-export { DetailFeatures, CarouselFeat ,SectionCard, TourDetails };
+export { DetailFeatures, CarouselFeat ,SectionCard };

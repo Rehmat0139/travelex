@@ -1,5 +1,5 @@
 import React from 'react'
-import NavScrollExample from '../Components/Nav'
+import NavScroll from '../Components/Nav'
 import Banner from '../Components/Banner'
 import Cards from '../Components/Cards'
 import Tours from '../Components/Tours'
@@ -9,7 +9,7 @@ import Footer from '../Components/Footer'
 const Home = () => {
   return (
     <>
-        <NavScrollExample/>
+        <NavScroll/>
         <Banner/>
         <Cards/>
         <Tours/>

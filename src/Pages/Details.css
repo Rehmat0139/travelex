@@ -1,0 +1,33 @@
+.NorthH{
+    background-image: url(https://images.unsplash.com/photo-1575336127377-71c4af9ce931?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=355&q=80);
+    height: 30vh;
+    color: white;
+    line-height: 10rem;
+    text-align: center;
+}
+
+.SouthH{
+    background: #2980b9; 
+    background: -webkit-linear-gradient(
+      to right,
+      #2980b9 ,#ffffff,
+      #2b7d9b
+    ); 
+    background: linear-gradient(
+      to right,
+      #2980b9, #aee9f3,
+      #2b7d9b
+    ); 
+    height: 30vh;
+    color: white;
+    line-height: 10rem;
+    text-align: center;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .SouthH {
+        line-height: 3rem;
+    }
+  }
